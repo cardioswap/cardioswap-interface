@@ -4,7 +4,6 @@
   "homepage": "https://cardioswap.io/",
   "private": true,
   "dependencies": {
-    "@binance-chain/bsc-connector": "^1.0.0",
     "@cardioswap/uikit": "https://github.com/cardioswap/uikit-dist",
     "@cardioswap/v2-sdk": "https://github.com/cardioswap/v2-sdk",
     "@crowdin/crowdin-api-client": "^1.8.16",
