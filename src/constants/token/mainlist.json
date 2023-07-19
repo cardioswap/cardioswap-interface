@@ -1,0 +1,62 @@
+{
+  "name": "PancakeSwap Default List",
+  "timestamp": "2023-07-18T00:00:00Z",
+  "version": {
+    "major": 2,
+    "minor": 10,
+    "patch": 0
+  },
+  "tags": {},
+  "logoURI": "https://cardioswapper.github.io/pancake-swap-interface-v1/images/coins/pls.png",
+  "keywords": ["pancake", "default"],
+  "tokens": [
+    {
+      "name": "Wrapped Pulse",
+      "symbol": "WPLS",
+      "address": "0xA1077a294dDE1B09bB078844df40758a5D0f9a27",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://cardioswapper.github.io/pancake-swap-interface-v1/images/coins/pls.png"
+    },
+    {
+      "name": "CardioSwap",
+      "symbol": "CARDIO",
+      "address": "0xE08DD1a6162A4096B4B4D3Fd3B60AE4aDe56a22f",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://cardioswapper.github.io/pancake-swap-interface-v1/images/coins/cardio.png"
+    },
+    {
+      "name": "Wrapped Ether from Ethereum",
+      "symbol": "WETH",
+      "address": "0x02DcdD04e3F455D838cd1249292C58f3B79e3C3C",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://cardioswapper.github.io/pancake-swap-interface-v1/images/coins/eth.png"
+    },
+    {
+      "name": "Tether USD from Ethereum",
+      "symbol": "USDT",
+      "address": "0x0Cb6F5a34ad42ec934882A05265A7d5F59b51A2f",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://cardioswapper.github.io/pancake-swap-interface-v1/images/coins/usdt.png"
+    },
+    {
+      "name": "USD Coin from Ethereum",
+      "symbol": "USDC",
+      "address": "0x15D38573d2feeb82e7ad5187aB8c1D52810B1f07",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://cardioswapper.github.io/pancake-swap-interface-v1/images/coins/usdc.png"
+    },
+    {
+      "name": "Dai Stablecoin from Ethereum",
+      "symbol": "DAI",
+      "address": "0xefD766cCb38EaF1dfd701853BFCe31359239F305",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://cardioswapper.github.io/pancake-swap-interface-v1/images/coins/dai.png"
+    }
+  ]
+}
