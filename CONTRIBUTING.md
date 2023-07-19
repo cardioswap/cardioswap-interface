@@ -14,7 +14,7 @@ yarn start
 
 Don't forget to setup your IDE with `eslint` and `prettier`.
 
-## Change BSC network
+## Change PulseChain network
 
 To change the BSC network from test net, modify the `REACT_APP_CHAIN_ID` value in `.env`.
 
@@ -60,10 +60,3 @@ TranslateString(id, 'fallback')
 - **id** is the crowdin id of the string you want to translate.
 - **fallback** is a string fallback used if the id cannot be found.
 
-### Variables
-
-The translation component can handle variables being passed in from Crowdin, with no code changes.
-
-It will only work if there is only **one** variable passed in, and if that variable within Crowdin is wrapped in **%** signs, i.e.:
-
-Translation in crowdin: `%asset% Earned` [link](https://crowdin.com/translate/pancakeswap/8/en-de#330)
