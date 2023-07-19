@@ -1,8 +1,8 @@
 import { useEffect } from 'react'
-import useGetCakeBusdLpPrice from 'utils/useGetCakeBusdLpPrice'
+import useGetCardioPrice from 'utils/useGetCardioPrice'
 
 const useGetDocumentTitlePrice = () => {
-  const cakePriceBusd = useGetCakeBusdLpPrice()
+  const cakePriceBusd = useGetCardioPrice()
 
   const cakePriceBusdString =
     Number.isNaN(cakePriceBusd) || cakePriceBusd === 0 || !cakePriceBusd
