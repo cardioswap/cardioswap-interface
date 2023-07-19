@@ -1,4 +1,4 @@
-# Pancake Swap Exchange
+# CardioSwap DEX
 
 [CardioSwap](https://cardioswap.io/) is an automated market maker (“**AMM**”) that allows two tokens to be exchanged on PulseChain. It is fast, cheap, and allows anyone to participate.
 
