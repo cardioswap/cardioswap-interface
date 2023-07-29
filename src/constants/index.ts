@@ -1,6 +1,7 @@
 import { ChainId, JSBI, Percent, Token, WETH } from '@cardioswap/v2-sdk'
 
 export const ROUTER_ADDRESS = '0xbE976f43B8C775065E6ff51A28E03Ba3F697c5Ce'
+export const SALE_ADDRESS = '0xEBaEfb9a13e87966ab5d0B887708ae90cc4D9e72'
 
 // a list of tokens by chain
 type ChainTokenList = {

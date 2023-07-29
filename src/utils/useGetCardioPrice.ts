@@ -1,5 +1,5 @@
 const useGetCardioPrice = () => {
-  const price = 0.03;
+  const price = 0.033;
   return price
 }
 
