@@ -109,13 +109,13 @@ const Sale: React.FC = () => {
               <RowBetween>
                 Total Sold:
                 <RowFixed>
-                  {totalSold ? ethers.utils.formatUnits(totalSold, 18) : 'Loading...'}
+                {(Number(totalSold)/Number(forSale)*100).toFixed(2)}% = {totalSold ? parseInt(ethers.utils.formatUnits(totalSold, 18)) : 'Loading...'} CARDIO
                 </RowFixed>
               </RowBetween>
               <RowBetween>
                 Price:
                 <RowFixed>
-                  {price ? price.toString() : 'Loading...'}
+                  {price ? price.toString() : 'Loading...'} CARDIO/PLS
                 </RowFixed>
               </RowBetween>
               <RowBetween>

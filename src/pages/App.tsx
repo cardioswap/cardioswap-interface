@@ -17,7 +17,7 @@ import { RedirectPathToSwapOnly } from './Swap/redirects'
 import { EN, allLanguages } from '../constants/localisation/languageCodes'
 import { LanguageContext } from '../hooks/LanguageContext'
 import { TranslationsContext } from '../hooks/TranslationsContext'
-import UseAtRiskModal from '../components/UseAtRiskModal'
+// import UseAtRiskModal from '../components/UseAtRiskModal'
 
 import Menu from '../components/Menu'
 import useGetDocumentTitlePrice from '../hooks/useGetDocumentTitlePrice'
@@ -56,7 +56,7 @@ export default function App() {
   const stringTranslationsApi = new StringTranslations(credentials)
 
   const [hasSeenModal, setHasSeenModal] = useState(false)
-  const [onPresentUseAtRiskModal] = useModal(<UseAtRiskModal />)
+  /* const [onPresentUseAtRiskModal] = useModal(<UseAtRiskModal />)
 
   useEffect(() => {
     const showModal = () => {
@@ -66,7 +66,7 @@ export default function App() {
     if (!hasSeenModal) {
       showModal()
     }
-  }, [onPresentUseAtRiskModal, hasSeenModal])
+  }, [onPresentUseAtRiskModal, hasSeenModal]) */
 
   const getStoredLang = (storedLangCode: string) => {
     return allLanguages.filter((language) => {
