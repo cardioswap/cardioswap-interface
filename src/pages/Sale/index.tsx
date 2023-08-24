@@ -1,21 +1,12 @@
-import React, { useState, useCallback } from 'react';
-import { Button, CardBody, Heading, Text, Flex } from '@cardioswap/uikit';
-import { useWeb3React } from '@web3-react/core';
-import { ethers } from 'ethers';
+import React from 'react';
+import { Heading, Text, Flex } from '@cardioswap/uikit';
 import styled from 'styled-components'
-import SaleInputPanel from 'components/SaleInputPanel';
-import { CurrencyAmount, ETHER } from '@cardioswap/v2-sdk'; // Assuming that you have ETHER initialized properly
-import ConnectWalletButton from 'components/ConnectWalletButton';
-import { BottomGrouping, Wrapper } from 'components/swap/styleds';
+import { Wrapper } from 'components/swap/styleds';
 import CardNav from 'components/CardNav';
 import { RowBetween, RowFixed } from 'components/Row'
 import { AutoColumn } from 'components/Column';
 import Container from 'components/Container';
-import { CARDIO } from 'constants/index';
-import { useCurrencyBalance } from 'state/wallet/hooks';
-import { maxAmountSpend } from 'utils/maxAmountSpend'
 import { HoverCard } from 'components/PositionCard';
-import { useSaleHooks, useBuyTokens, useClaimTokens } from './saleContract';
 import AppBody from '../AppBody';
 
 const Sale: React.FC = () => {
