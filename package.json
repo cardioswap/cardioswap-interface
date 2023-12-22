@@ -5,7 +5,7 @@
   "private": true,
   "dependencies": {
     "@cardioswap/uikit": "https://github.com/cardioswap/uikit-dist",
-    "@cardioswap/v2-sdk": "https://github.com/cardioswap/v2-sdk",
+    "@cardioswap/v2-sdk": "https://github.com/r3balanc3/v2-sdk",
     "@crowdin/crowdin-api-client": "^1.8.16",
     "@ethersproject/experimental": "^5.0.1",
     "@popperjs/core": "^2.4.4",
