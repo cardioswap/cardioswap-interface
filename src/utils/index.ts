@@ -17,13 +17,9 @@ export function isAddress(value: any): string | false {
   }
 }
 
-const BSCSCAN_PREFIXES: { [chainId in ChainId]: string } = {
-  369: '',
-  97: 'testnet.'
-}
 
 export function getBscScanLink(chainId: ChainId, data: string, type: 'transaction' | 'token' | 'address'): string {
-  const prefix = `https://${BSCSCAN_PREFIXES[chainId] || BSCSCAN_PREFIXES[ChainId.MAINNET]}scan.pulsechain.com`
+  const prefix = `https://celoscan.io`
 
   switch (type) {
     case 'transaction': {
