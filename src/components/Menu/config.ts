@@ -22,11 +22,6 @@ const config: MenuEntry[] = [
     ],
   },
   {
-    label: 'Buy CARDIO',
-    icon: 'PoolIcon',
-    href: '/sale',
-  },
-  {
     label: 'Info',
     icon: 'InfoIcon',
     items: [

@@ -1,6 +1,6 @@
 import { ChainId, JSBI, Percent, Token, WETH } from '@cardioswap/v2-sdk'
 
-export const ROUTER_ADDRESS = '0xbE976f43B8C775065E6ff51A28E03Ba3F697c5Ce'
+export const ROUTER_ADDRESS = '0x59a17bf57e0008c501C6C868b0BEA126Dfde8488'
 export const SALE_ADDRESS = '0xEBaEfb9a13e87966ab5d0B887708ae90cc4D9e72'
 
 // a list of tokens by chain
@@ -9,7 +9,7 @@ type ChainTokenList = {
 }
 
 export const WPLS = new Token(ChainId.MAINNET, '0xA1077a294dDE1B09bB078844df40758a5D0f9a27', 18, 'WPLS', 'Wrapped Pulse')
-export const CARDIO = new Token(ChainId.MAINNET, '0xE08DD1a6162A4096B4B4D3Fd3B60AE4aDe56a22f', 18, 'CARDIO', 'CardioSwap')
+export const CARDIO = new Token(ChainId.MAINNET, '0xbf902662952C1ab045023B73ed2400db0048A811', 18, 'CARDIO', 'CardioSwap')
 export const ETH = new Token(ChainId.MAINNET, '0x02DcdD04e3F455D838cd1249292C58f3B79e3C3C', 18, 'WETH', 'Wrapped Ether from Ethereum')
 export const USDT = new Token(ChainId.MAINNET, '0x0Cb6F5a34ad42ec934882A05265A7d5F59b51A2f', 18, 'USDT', 'Tether USD from Ethereum')
 export const USDC = new Token(ChainId.MAINNET, '0x15D38573d2feeb82e7ad5187aB8c1D52810B1f07', 18, 'USDC', 'USD Coin from Ethereum')

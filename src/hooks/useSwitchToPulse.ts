@@ -1,19 +1,19 @@
 const params = {
-    id: 369,
-    name: "PulseChain",
-    label: "PulseChain",
+    id: 42220,
+    name: "Celo Mainnet",
+    label: "Celo Mainnet",
     image: "PulseChain.png",
     wrappedNativeToken: "0xA1077a294dDE1B09bB078844df40758a5D0f9a27",
     params: {
-        chainId: "0x171",
-        chainName: "PulseChain",
+        chainId: "0xa4ec",
+        chainName: "Celo Mainnet",
         nativeCurrency: {
-            name: "PulseChain",
-            symbol: "PLS",
+            name: "CELO",
+            symbol: "CELO",
             decimals: 18,
         },
-        rpcUrls: ["https://rpc.pulsechain.com/"],
-        blockExplorerUrls: ["https://scan.pulsechain.com"],
+        rpcUrls: ["https://forno.celo.org/"],
+        blockExplorerUrls: ["https://celoscan.io"],
     },
 }
 
