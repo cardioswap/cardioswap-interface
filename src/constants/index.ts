@@ -1,6 +1,6 @@
 import { ChainId, JSBI, Percent, Token, WETH } from '@cardioswap/v2-sdk'
 
-export const ROUTER_ADDRESS = '0x59a17bf57e0008c501C6C868b0BEA126Dfde8488'
+export const ROUTER_ADDRESS = '0xaBb34B28f1D354ec22682B77A92A423F8f6B2804'
 export const SALE_ADDRESS = '0xEBaEfb9a13e87966ab5d0B887708ae90cc4D9e72'
 
 // a list of tokens by chain
@@ -8,12 +8,11 @@ type ChainTokenList = {
   readonly [chainId in ChainId]: Token[]
 }
 
-export const WPLS = new Token(ChainId.MAINNET, '0xA1077a294dDE1B09bB078844df40758a5D0f9a27', 18, 'WPLS', 'Wrapped Pulse')
+export const _WETH = new Token(ChainId.MAINNET, '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2', 18, 'WETH', 'Wrapped Ether')
 export const CARDIO = new Token(ChainId.MAINNET, '0xbf902662952C1ab045023B73ed2400db0048A811', 18, 'CARDIO', 'CardioSwap')
-export const ETH = new Token(ChainId.MAINNET, '0x02DcdD04e3F455D838cd1249292C58f3B79e3C3C', 18, 'WETH', 'Wrapped Ether from Ethereum')
-export const USDT = new Token(ChainId.MAINNET, '0x0Cb6F5a34ad42ec934882A05265A7d5F59b51A2f', 18, 'USDT', 'Tether USD from Ethereum')
-export const USDC = new Token(ChainId.MAINNET, '0x15D38573d2feeb82e7ad5187aB8c1D52810B1f07', 18, 'USDC', 'USD Coin from Ethereum')
-export const DAI = new Token(ChainId.MAINNET, '0xefD766cCb38EaF1dfd701853BFCe31359239F305', 18, 'DAI', 'Dai Stablecoin from Ethereum')
+export const USDT = new Token(ChainId.MAINNET, '0xdAC17F958D2ee523a2206206994597C13D831ec7', 18, 'USDT', 'Tether USD')
+export const USDC = new Token(ChainId.MAINNET, '0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48', 18, 'USDC', 'USDC')
+export const DAI = new Token(ChainId.MAINNET, '0x6B175474E89094C44Da98b954EedeAC495271d0F', 18, 'DAI', 'Dai Stablecoin')
 
 
 const WETH_ONLY: ChainTokenList = {
@@ -24,7 +23,7 @@ const WETH_ONLY: ChainTokenList = {
 // used to construct intermediary pairs for trading
 export const BASES_TO_CHECK_TRADES_AGAINST: ChainTokenList = {
   ...WETH_ONLY,
-  [ChainId.MAINNET]: [...WETH_ONLY[ChainId.MAINNET], CARDIO, ETH, USDT, USDC],
+  [ChainId.MAINNET]: [...WETH_ONLY[ChainId.MAINNET], CARDIO, USDT, USDC],
 }
 
 /**
@@ -38,19 +37,19 @@ export const CUSTOM_BASES: { [chainId in ChainId]?: { [tokenAddress: string]: To
 // used for display in the default list when adding liquidity
 export const SUGGESTED_BASES: ChainTokenList = {
   ...WETH_ONLY,
-  [ChainId.MAINNET]: [...WETH_ONLY[ChainId.MAINNET], CARDIO, ETH, USDT, USDC],
+  [ChainId.MAINNET]: [...WETH_ONLY[ChainId.MAINNET], CARDIO, USDT, USDC],
 }
 
 // used to construct the list of all pairs we consider by default in the frontend
 export const BASES_TO_TRACK_LIQUIDITY_FOR: ChainTokenList = {
   ...WETH_ONLY,
-  [ChainId.MAINNET]: [...WETH_ONLY[ChainId.MAINNET], CARDIO, ETH, USDT, USDC],
+  [ChainId.MAINNET]: [...WETH_ONLY[ChainId.MAINNET], CARDIO, USDT, USDC],
 }
 
 export const PINNED_PAIRS: { readonly [chainId in ChainId]?: [Token, Token][] } = {
   [ChainId.MAINNET]: [
-    [WPLS, CARDIO],
-    [WPLS, USDT],
+    [_WETH, CARDIO],
+    [_WETH, USDT],
     [USDT, USDC],
   ],
 }

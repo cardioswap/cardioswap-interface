@@ -7,56 +7,56 @@
     "patch": 0
   },
   "tags": {},
-  "logoURI": "https://cardioswap.io/images/coins/pls.png",
-  "keywords": ["pancake", "default"],
+  "logoURI": "https://cardioswap.io/images/coins/eth.png",
+  "keywords": ["ethereum", "default"],
   "tokens": [
     {
-      "name": "Wrapped Pulse",
-      "symbol": "WPLS",
-      "address": "0xA1077a294dDE1B09bB078844df40758a5D0f9a27",
-      "chainId": 369,
+      "name": "Wojak.farm",
+      "symbol": "WOJAK",
+      "address": "0x4fd2ec9bdd398f8e522d76ea3704f8dbdc1f23f4",
+      "chainId": 1,
       "decimals": 18,
-      "logoURI": "https://cardioswap.io/images/coins/pls.png"
+      "logoURI": "https://wojak.farm/logo100.png"
     },
     {
-      "name": "CardioSwap",
-      "symbol": "CARDIO",
-      "address": "0xE08DD1a6162A4096B4B4D3Fd3B60AE4aDe56a22f",
-      "chainId": 369,
+      "name": "Pepe",
+      "symbol": "PEPE",
+      "address": "0x4dFae3690b93c47470b03036A17B23C1Be05127C",
+      "chainId": 1,
       "decimals": 18,
-      "logoURI": "https://cardioswap.io/images/coins/cardio.png"
+      "logoURI": "https://ogpepe.io/p32.png"
     },
     {
-      "name": "Wrapped Ether from Ethereum",
-      "symbol": "WETH",
-      "address": "0x02DcdD04e3F455D838cd1249292C58f3B79e3C3C",
-      "chainId": 369,
-      "decimals": 18,
-      "logoURI": "https://cardioswap.io/images/coins/eth.png"
-    },
-    {
-      "name": "Tether USD from Ethereum",
+      "name": "Tether USD",
       "symbol": "USDT",
-      "address": "0x0Cb6F5a34ad42ec934882A05265A7d5F59b51A2f",
-      "chainId": 369,
+      "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+      "chainId": 1,
       "decimals": 18,
       "logoURI": "https://cardioswap.io/images/coins/usdt.png"
     },
     {
-      "name": "USD Coin from Ethereum",
+      "name": "USDC",
       "symbol": "USDC",
-      "address": "0x15D38573d2feeb82e7ad5187aB8c1D52810B1f07",
-      "chainId": 369,
+      "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+      "chainId": 1,
       "decimals": 18,
       "logoURI": "https://cardioswap.io/images/coins/usdc.png"
     },
     {
-      "name": "Dai Stablecoin from Ethereum",
+      "name": "Dai Stablecoin",
       "symbol": "DAI",
-      "address": "0xefD766cCb38EaF1dfd701853BFCe31359239F305",
-      "chainId": 369,
+      "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+      "chainId": 1,
       "decimals": 18,
       "logoURI": "https://cardioswap.io/images/coins/dai.png"
+    },
+    {
+      "name": "Wrapped BTC",
+      "symbol": "WBTC",
+      "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+      "chainId": 1,
+      "decimals": 18,
+      "logoURI": "https://cardioswap.io/images/coins/btc.png"
     }
   ]
 }

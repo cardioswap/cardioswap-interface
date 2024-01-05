@@ -14,11 +14,11 @@ yarn start
 
 Don't forget to setup your IDE with `eslint` and `prettier`.
 
-## Change PulseChain network
+## Change Ethereum network
 
 To change the BSC network from test net, modify the `REACT_APP_CHAIN_ID` value in `.env`.
 
-- MAIN NET `42220`
+- MAIN NET `1`
 - TEST NET `97`
 
 ## Tests

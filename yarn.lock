@@ -1148,9 +1148,9 @@
   version "1.0.1"
   resolved "https://github.com/cardioswap/v2-core.git#d0bb7099cca052cdf1d47ecba26006e7ba5b0717"
 
-"@cardioswap/v2-sdk@https://github.com/r3balanc3/v2-sdk":
+"@cardioswap/v2-sdk@https://github.com/cardioswap/v2-sdk":
   version "1.0.0"
-  resolved "https://github.com/r3balanc3/v2-sdk#01d873cbe2a13499d6acdd782c10255430f37172"
+  resolved "https://github.com/cardioswap/v2-sdk#e7688fcf643ba917d6e0d5a190b3d923baca97d9"
   dependencies:
     "@cardioswap/v2-core" "https://github.com/cardioswap/v2-core.git"
     big.js "^5.2.2"

@@ -7,16 +7,16 @@ describe('Remove Liquidity', () => {
     )
   })
 
-  it('pls remove', () => {
-    cy.visit('/remove/PLS/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82')
-    cy.get('#remove-liquidity-tokena-symbol').should('contain.text', 'PLS')
+  it('eth remove', () => {
+    cy.visit('/remove/ETH/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82')
+    cy.get('#remove-liquidity-tokena-symbol').should('contain.text', 'ETH')
     cy.get('#remove-liquidity-tokenb-symbol').should('contain.text', 'CAKE')
   })
 
-  it('pls remove swap order', () => {
-    cy.visit('/remove/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82/PLS')
+  it('eth remove swap order', () => {
+    cy.visit('/remove/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82/ETH')
     cy.get('#remove-liquidity-tokena-symbol').should('contain.text', 'CAKE')
-    cy.get('#remove-liquidity-tokenb-symbol').should('contain.text', 'PLS')
+    cy.get('#remove-liquidity-tokenb-symbol').should('contain.text', 'ETH')
   })
 
   it('loads the two correct tokens', () => {

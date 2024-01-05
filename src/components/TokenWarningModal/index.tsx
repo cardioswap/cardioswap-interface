@@ -111,7 +111,7 @@ export default function TokenWarningModal({
           <Text>
             {TranslateString(
               1130,
-              'Anyone can create an ERC20 token on PulseChain with any name, including creating fake versions of existing tokens and tokens that claim to represent projects that do not have a token.'
+              'Anyone can create an ERC20 token on Ethereum with any name, including creating fake versions of existing tokens and tokens that claim to represent projects that do not have a token.'
             )}
           </Text>
           <Text>

@@ -7,7 +7,7 @@ const config = [
     description: [
       {
         id: 999,
-        fallback: 'CardioSwap DEX is a decentralized exchange (DEX) built on the PulseChain blockchain. It allows users to trade digital assets in a secure, transparent, and trustless manner.',
+        fallback: 'CardioSwap DEX is a decentralized exchange (DEX) built on the Ethereum blockchain. It allows users to trade digital assets in a secure, transparent, and trustless manner.',
       },
     ],
   },
@@ -19,7 +19,7 @@ const config = [
     description: [
       {
         id: 999,
-        fallback: 'To start using CardioSwap DEX, you need to have a wallet that supports PulseChain. Connect your wallet to the DEX and start trading by accessing the CardioSwap website or through compatible wallet applications.',
+        fallback: 'To start using CardioSwap DEX, you need to have a wallet that supports Ethereum. Connect your wallet to the DEX and start trading by accessing the CardioSwap website or through compatible wallet applications.',
       },
     ],
   },
@@ -28,7 +28,7 @@ const config = [
     description: [
       {
         id: 999,
-        fallback: 'CardioSwap DEX supports a variety of tokens, including PulseChain-compatible assets. The available tokens will depend on the liquidity provided by users and the listing decisions of the CardioSwap team.',
+        fallback: 'CardioSwap DEX supports a variety of tokens, including Ethereum-compatible assets. The available tokens will depend on the liquidity provided by users and the listing decisions of the CardioSwap team.',
       },
     ],
   },
@@ -37,7 +37,7 @@ const config = [
     description: [
       {
         id: 999,
-        fallback: 'CardioSwap DEX leverages the security and immutability of the PulseChain blockchain, providing a high level of security for your trades. However, it is important to exercise caution and follow best practices for securing your wallet and private keys.',
+        fallback: 'CardioSwap DEX leverages the security and immutability of the Ethereum blockchain, providing a high level of security for your trades. However, it is important to exercise caution and follow best practices for securing your wallet and private keys.',
       },
     ],
   },
