@@ -11,6 +11,14 @@
   "keywords": ["ethereum", "default"],
   "tokens": [
     {
+      "name": "CardioSwap",
+      "symbol": "CARDIO",
+      "address": "0x91BcbA4d292467c822cfb76211A39D3Ac048663c",
+      "chainId": 1,
+      "decimals": 18,
+      "logoURI": "https://cardioswap.io/images/coins/cardio.png"
+    },
+    {
       "name": "Wojak.farm",
       "symbol": "WOJAK",
       "address": "0x4fd2ec9bdd398f8e522d76ea3704f8dbdc1f23f4",
